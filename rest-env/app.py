@@ -8,4 +8,4 @@ def return_env(key:str):
     if value is None:
         return Response(status_code=404)
     else:
-        return value
+        return Response(content=value)
